@@ -26,7 +26,7 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 ## Setup the Environment
 
 * Create (and activate) a new environment, named *.devops* with Python 3 using the following:
-* #python3 -m venv ~/.devops# ; #source ~/.devops/bin/activate#
+* `python3 -m venv` ; `source ~/.devops/bin/activate`
 * Run `make install` to install the necessary dependencies
 * Run `make lint`to check the status of the project code
 
