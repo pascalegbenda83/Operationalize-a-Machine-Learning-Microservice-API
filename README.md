@@ -44,8 +44,8 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 ### Making Predictions Steps
 
-* For Docker, run ./run_docker.sh and then run ./make_prediction.sh in another terminal and paste output in docker_out_txt.
-* For Kubernetes(Minikube) run ./run_kubernetes.sh and the run ./make_prediction.sh in another terminal and get the output log from kubectl logs <podname> and paste in kunernetes_out_txt.
+* For Docker, run *./run_docker.sh* and then run *./make_prediction.sh* in another terminal and paste output in *docker_out_txt*.
+* For Kubernetes(Minikube) run *./run_kubernetes.sh* and the run *./make_prediction.sh* in another terminal and get the output log from *kubectl logs* *<podname>* and paste in *kunernetes_out_txt*.
 
 ### Create CircleCI config.yml
 
