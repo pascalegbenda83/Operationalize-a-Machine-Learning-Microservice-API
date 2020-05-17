@@ -25,4 +25,4 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST http://192.168.64.2:$PORT/predict
+     -X POST http://$(minikube IP):$PORT/predict
