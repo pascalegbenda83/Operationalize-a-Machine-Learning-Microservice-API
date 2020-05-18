@@ -23,7 +23,7 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 ---
 
-## Setup the Environment
+### Setup the Environment
 
 * Create (and activate) a new environment, named *.devops* with Python 3 using the following:
 * `python3 -m venv` ; `source ~/.devops/bin/activate`
@@ -46,9 +46,8 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 ### Making Predictions Steps
 
 * For Docker, run *./run_docker.sh* and then run *./make_prediction.sh* in another terminal and paste output in *docker_out_txt*.
-* For Kubernetes(Minikube) run *./run_kubernetes.sh* and the run *./make_prediction.sh* in another terminal and get the output log from *kubectl logs* *podname* and paste in *kunernetes_out_txt*.
+* For Kubernetes(Minikube) run *./run_kubernetes.sh* and the run *./make_prediction.sh* in another terminal and get the output in *kubernetes_out_txt*
 
 ### Create CircleCI config.yml
-
 *.circleci/config.yml*
 
